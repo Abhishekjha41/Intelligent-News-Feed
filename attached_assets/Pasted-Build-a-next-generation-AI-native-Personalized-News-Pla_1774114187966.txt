@@ -1,0 +1,208 @@
+Build a **next-generation AI-native Personalized News Platform (General News)** with a highly interactive, visually stunning, and addictive UI. This should completely replace traditional news reading.
+
+---
+
+## 🎯 CORE OBJECTIVE
+
+Create a system where:
+
+* Users don’t read articles → they explore news
+* Every user gets a **unique, evolving news experience**
+* AI acts as a **personal curator + explainer**
+* Covers ALL categories:
+
+  * Politics, Tech, Business, Sports, Entertainment, World, Local
+
+---
+
+## 🧠 CORE FEATURES (ADVANCED)
+
+1. Hyper-Personalized Newsroom
+
+* User selects interests:
+
+  * Tech / Politics / Sports / Finance / etc.
+* AI adapts feed based on:
+
+  * Click behavior
+  * Time spent
+  * Interaction history
+* Show:
+
+  * “Why this is relevant to you”
+
+2. AI News Navigator (MAIN FEATURE)
+
+* On clicking any topic:
+
+  * Replace article with AI-generated briefing:
+
+    * TL;DR
+    * Key Points
+    * Why it matters
+    * Impact
+    * What next
+* Allow interaction:
+
+  * “Explain simply”
+  * “Deep dive”
+  * “Summarize in 30 sec”
+
+3. Story Arc Tracker (Visual)
+
+* For any ongoing news:
+
+  * Interactive timeline
+  * Key events
+  * Key people
+  * Sentiment changes
+  * Future predictions
+
+4. Smart Alert System (YOUR EDGE)
+
+* Based on:
+
+  * Location + interests
+* Trigger alerts:
+
+  * Weather danger
+  * Traffic issues
+  * Breaking news nearby
+* Show impact:
+
+  * “Heavy rain → travel delay”
+  * “Political protest nearby”
+
+5. Multi-Level Understanding
+
+* Toggle modes:
+
+  * Beginner
+  * Normal
+  * Expert
+
+---
+
+## 🎨 ULTRA-ADVANCED UI DESIGN
+
+Design Style:
+
+* Dark theme
+* Glassmorphism + gradients
+* Smooth animations (Framer Motion)
+* Minimal but premium look
+
+Main Dashboard:
+
+* Top:
+
+  * Search + AI suggestions
+  * User profile
+* Left Sidebar:
+
+  * Categories (Tech, Politics, Sports, etc.)
+* Center:
+
+  * Dynamic news cards
+* Right Panel:
+
+  * Alerts + trending
+
+News Detail View:
+
+* Full-screen immersive panel
+* Tabs:
+
+  * Summary
+  * Deep Dive
+  * Timeline
+  * Impact
+
+Unique UI Elements:
+
+1. Interactive Bubble Graph
+
+   * Topics as floating bubbles
+   * Size = importance
+   * Click to explore
+
+2. Card Flip UI
+
+   * Front: headline
+   * Back: AI insights
+
+3. Risk/Importance Meter
+
+   * Visual gauge
+
+4. Smooth transitions between views
+
+---
+
+## ⚙️ TECH STACK (STRICT)
+
+Frontend:
+
+* React + Tailwind CSS
+* Framer Motion
+
+Backend:
+
+* Node.js + Express
+
+AI:
+
+* OpenAI API (or compatible)
+
+---
+
+## 🧪 LOGIC FLOW
+
+1. User selects interests + location
+2. Fetch news data (API or mock)
+3. AI filters + ranks relevance
+4. Show personalized feed
+5. On click:
+
+   * Generate AI briefing
+   * Show interactive UI
+6. Track behavior → improve feed
+
+---
+
+## 📊 ADDICTION FEATURES
+
+* Infinite smooth scroll
+* Hover previews
+* Daily AI brief
+* Smart notifications
+
+---
+
+## 🧪 ERROR HANDLING
+
+* API fail → fallback data
+* AI fail → cached response
+* Loading → skeleton UI
+
+---
+
+## 🚫 DO NOT
+
+* Do not show plain text articles
+* Do not build static UI
+* Do not make generic layout
+
+---
+
+## ✅ FINAL GOAL
+
+User should feel:
+“I can’t go back to normal news apps.”
+
+The product must feel:
+
+* Interactive
+* Intelligent
+* Personalized
+* Addictive
