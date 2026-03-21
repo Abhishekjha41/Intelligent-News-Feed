@@ -1,0 +1,152 @@
+Modify the existing AI news platform with the following UI and interaction improvements. Do NOT rebuild from scratch — only enhance and fix these components.
+
+---
+
+## 🎯 GOAL
+
+Improve UI smoothness, interactivity, and user experience to make it more natural, fluid, and visually appealing.
+
+---
+
+## 🧩 1. FEED SECTION (FLIP CARD FIX)
+
+* Current issue: Cards rotate 360° → feels unnatural
+
+* Fix:
+
+  * On hover, apply **subtle 3D tilt (max 10–20 degrees)**
+  * Do NOT flip fully
+  * Add:
+
+    * Slight scale-up (1.03–1.05)
+    * Soft shadow glow
+  * Smooth transition (ease-in-out, 200–300ms)
+
+* Optional:
+
+  * Add “peek” effect (content slightly visible on hover)
+
+---
+
+## 📊 2. TRENDING & CATEGORY TABS (FUNCTIONALITY FIX)
+
+* Ensure tabs are fully functional:
+
+  * Trending
+  * Tech
+  * Politics
+  * Sports
+  * etc.
+
+* On click:
+
+  * Dynamically filter and display relevant news
+  * Highlight active tab (color + underline)
+  * Smooth content transition (fade or slide)
+
+---
+
+## 🫧 3. INFOWARS BUBBLE SECTION (MAJOR UI FIX)
+
+Current issue:
+
+* Bubbles overlapping → messy UI
+
+Fix:
+
+* Use **non-overlapping physics-based layout**
+
+* Bubbles should:
+
+  * Float/move slowly
+  * Maintain spacing
+  * Avoid collisions
+
+* Add:
+
+  * Gentle floating animation
+  * Hover highlight effect
+
+---
+
+## 🎯 4. BUBBLE CLICK INTERACTION (NEW FLOW)
+
+On clicking a bubble:
+
+* Open a **focused view (same page or modal)**
+
+Inside view:
+
+* Center:
+
+  * Selected topic (main bubble)
+* Around it:
+
+  * Concentric smaller bubbles
+
+Each small bubble:
+
+* Represents related news/article
+
+On clicking article bubble:
+
+* Show same AI briefing UI (like feed card click)
+
+---
+
+## 🧠 5. TOP GENRES SECTION (NEW FEATURE)
+
+Add a new section:
+
+* Title: “Top Genres for You”
+* Show top 3 user-preferred categories
+
+For each genre:
+
+* Display as:
+
+  * Central large bubble (genre)
+  * Surrounding smaller bubbles (topics/articles)
+
+Same interaction:
+
+* Click → opens concentric bubble view
+* Then → click article → AI briefing
+
+---
+
+## 🎨 UI IMPROVEMENTS (GLOBAL)
+
+* Use smooth animations (Framer Motion)
+* Maintain spacing and avoid clutter
+* Add:
+
+  * Hover feedback everywhere
+  * Soft gradients
+  * Consistent color system
+
+---
+
+## ⚙️ TECH NOTES
+
+* Use Framer Motion for animations
+* Use CSS transforms for tilt effects
+* Use force-directed graph or custom logic for bubble spacing
+
+---
+
+## 🚫 DO NOT
+
+* Do not use 360° flip animations
+* Do not allow bubble overlap
+* Do not break existing functionality
+
+---
+
+## ✅ FINAL RESULT
+
+* Smooth, subtle, premium interactions
+* Clean bubble system (no overlap)
+* Fully working tabs
+* Interactive topic exploration system
+* Addictive and modern UI feel
